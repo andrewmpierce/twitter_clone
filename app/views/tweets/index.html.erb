@@ -2,6 +2,6 @@
 <br>
 <br>
 <% @tweets.each do |tweet| %>
-  <%= tweet.body %>
+  <%= tweet.body %> @ <%= tweet.created_at %>
   <br>
 <% end %>
